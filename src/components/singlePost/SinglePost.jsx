@@ -7,7 +7,7 @@ import "./singlePost.css";
 
 export default function SinglePost() {
   const location = useLocation();
-  const path = location.pathname.split("/")[2];
+  const path = location.pathname.split("https://sleepy-fjord-84120.herokuapp.com/api/")[2];
   const [post, setPost] = useState({});
   const PF = "https://sleepy-fjord-84120.herokuapp.com/images/";
   const { user } = useContext(Context);
