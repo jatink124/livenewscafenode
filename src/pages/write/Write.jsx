@@ -27,7 +27,7 @@ export default function Write() {
       } catch (err) {}
     }
     try {
-      const res = await axios.post("https://sleepy-fjord-84120.herokuapp.com/api/posts", newPost);
+      const res = await axios.post("https://catchmyjob.in/images/blog/", newPost);
       // window.location.replace("/post/" + res.data._id);
       window.location.replace("/");
     } catch (err) {}
