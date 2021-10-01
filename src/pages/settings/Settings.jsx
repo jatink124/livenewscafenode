@@ -12,7 +12,7 @@ export default function Settings() {
   const [success, setSuccess] = useState(false);
 
   const { user, dispatch } = useContext(Context);
-  const PF = "https://catchmyjob.in/images/blog/"
+  const PF = "https://sleepy-fjord-84120.herokuapp.com/images/"
 
   const handleSubmit = async (e) => {
     e.preventDefault();

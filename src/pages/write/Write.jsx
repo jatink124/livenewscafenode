@@ -23,7 +23,7 @@ export default function Write() {
       data.append("file", file);
       newPost.photo = filename;
       try {
-        await axios.post("https://sleepy-fjord-84120.herokuapp.com/api/upload", data);
+        await axios.post("https://catchmyjob.in/images/blog/", data);
       } catch (err) {}
     }
     try {
