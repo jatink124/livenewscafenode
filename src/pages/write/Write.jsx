@@ -29,7 +29,7 @@ export default function Write() {
     try {
       const res = await axios.post("https://sleepy-fjord-84120.herokuapp.com/api/posts", newPost);
       // window.location.replace("/post/" + res.data._id);
-      // window.location.replace("/");
+      window.location.replace("/");
     } catch (err) {}
   };
   return (
