@@ -2,7 +2,7 @@ import "./post.css";
 import { Link } from "react-router-dom";
 
 export default function Post({ post }) {
-  const PF = "https://sleepy-fjord-84120.herokuapp.com/images/";
+  const PF = "https://sleepy-fjord-84120.herokuapp.com/api/images/";
   return (
     <div className="post">
       {post.photo && <img className="postImg" src={PF + post.photo} alt="" />}
